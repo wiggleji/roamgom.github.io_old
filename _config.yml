@@ -5,11 +5,11 @@ url: "https://roamgom.github.io"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Pumping record
-  avatar: assets/img/roamgom.jpg
+  title: Type on Strap
+  avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
-  description: "roamgom's launchpad" # used by search engines
+  description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
@@ -24,14 +24,14 @@ theme_settings:
   behance:
   bitbucket:
   dribbble:
-  facebook: "https://www.facebook.com/roamgom"
+  facebook:
   flickr:
   gitlab:
-  github: "roamgom"
+  github: "sylhare"
   google_plus:
   instagram:
   keybase:
-  linkedin: "https://www.linkedin.com/in/ji-hyung-kim-1390a198/"
+  linkedin:  # Full URL
   pinterest:
   reddit:
   soundcloud:
