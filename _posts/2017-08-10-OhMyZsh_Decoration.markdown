@@ -1,9 +1,10 @@
 ---
-title: "OhMyZsh로 터미널 꾸미기"
+title: OhMyZsh로 터미널 꾸미기
 date: 2017-08-10 11:32
 layout: post
-category: ["dev", "inde"]
-tagline: ""
+thumbnail: assets/img_src/post/2017-08-10/zsh.jpg
+tags: [Dev, BachBach]
+---
 published: true
 ---
 
@@ -27,7 +28,7 @@ published: true
 
 Mac에서 쓰이는 터미널 iTerm2를 먼저 설치를 해주세요.
 
-![](/img_src/post/2017-08-10/iterm2.png)
+![](assets/img_src/post/2017-08-10/iterm2.png)
 
 * [Official Download Page](https://www.iterm2.com/downloads.html)
 
@@ -45,7 +46,7 @@ Mac에서 쓰이는 터미널 iTerm2를 먼저 설치를 해주세요.
 Ubuntu에 APT가 있다면 Mac에는 HomeBrew가 있다!
 
 APT와 마찬가지로 각종 프로그램 패키지를 관리해주는 프로그램입니다. `brew` 명령어로 패키지를 관리합니다.
-![](/img_src/post/2017-08-10/homebrew.png)
+![](assets/img_src/post/2017-08-10/homebrew.png)
 
 * [Official Page](https://brew.sh/)
 
@@ -68,7 +69,7 @@ APT와 마찬가지로 각종 프로그램 패키지를 관리해주는 프로�
 
 Shell 종류는 다양합니다. Bash, sh, csh, ksh...
 그 중 우리가 사용할 쉘은 바로 Zsh입니다!
-![](/img_src/post/2017-08-10/zsh.jpg)
+![](assets/img_src/post/2017-08-10/zsh.jpg)
 
 왜 Zsh를 쓰냐고요?
 
@@ -77,23 +78,23 @@ Zsh 는 Bash에 비해 확장성이 뛰어납니다.
 
 * cd/ls 자동완성
   `$ cd / ls <TAB>` 사용 시 현재 Directory를 표시해줘 빠른 이동이 가능하다.
-![](/img_src/post/2017-08-10/cd_completion.png)
+![](assets/img_src/post/2017-08-10/cd_completion.png)
 
 
 * history 검색
 `<Ctrl>+R` 을 통해 이전에 쓴 명령어를 쉽게 찾을 수 있다.
-![](/img_src/post/2017-08-10/find_command.png)
+![](assets/img_src/post/2017-08-10/find_command.png)
 
 
 이 외에 많은 [이유](https://code.joejag.com/2014/why-zsh.html)가 있습니다.
 
 **하지만 제일 중요한 이유!**
 
-![](/img_src/post/2017-08-10/zsh_pretty.png)
+![](assets/img_src/post/2017-08-10/zsh_pretty.png)
 
 ...
 
-![](/img_src/post/2017-08-10/pretty.jpg)
+![](assets/img_src/post/2017-08-10/pretty.jpg)
 
 
 위에서 설치한 `brew`를 통해 zsh를 설치합니다.
@@ -112,7 +113,7 @@ Zsh 는 Bash에 비해 확장성이 뛰어납니다.
 
 OhMyZsh는 Zsh에 각종 Plugin과 Theme을 적용시켜주는 Framework입니다.
 
-![](/img_src/post/2017-08-10/ohmyzsh_logo.png)
+![](assets/img_src/post/2017-08-10/ohmyzsh_logo.png)
 
 
 * [Official Page](http://ohmyz.sh/)
@@ -126,7 +127,7 @@ OhMyZsh는 Zsh에 각종 Plugin과 Theme을 적용시켜주는 Framework입니�
 
 설치가 완료되면
 
-![](/img_src/post/2017-08-10/ohmyzsh.jpeg)
+![](assets/img_src/post/2017-08-10/ohmyzsh.jpeg)
 
 멋진 로고가 나타납니다.
 
@@ -153,7 +154,7 @@ vim으로 열 경우
 ```vim ~/.zshrc```
 
 파일에서 10번 줄에 있는 설정이 바로 테마를 정해주는 부분입니다.
-![](/img_src/post/2017-08-10/zshrc.png)
+![](assets/img_src/post/2017-08-10/zshrc.png)
 
 
 ```ZSH_THEME="THEME_NAME"```
@@ -170,7 +171,7 @@ THEME_NAME에 원하는 테마 이름을 입력하고 iTerm2를 재부팅 해주
 
 
 * [Font Link](https://www.slant.co/topics/67/~best-programming-fonts)
- 
+
 <br>
 
 **설치가 완료되면 iTerm을 종료하고 다시 실행시켜 주세요. 설정에서 설치한 폰트를 로드하지 못할 수 있습니다.**
@@ -180,13 +181,13 @@ THEME_NAME에 원하는 테마 이름을 입력하고 iTerm2를 재부팅 해주
 iTerm을 다시 실행하고 메뉴창에서
 *iTerm2-Preferences...*
 
-![](/img_src/post/2017-08-10/preferences.png)
+![](assets/img_src/post/2017-08-10/preferences.png)
 
 *Profiles-Default-Text-Change Font*
-로 들어가서 Collection을 **고정폭**으로 설정해주세요. 그리고 Family에서 해당 폰트를 선택해주세요. 
+로 들어가서 Collection을 **고정폭**으로 설정해주세요. 그리고 Family에서 해당 폰트를 선택해주세요.
 (안그러면 시스템 상 설치된 모든 폰트가 나와요)
 
-![](/img_src/post/2017-08-10/preferences_text.png)
+![](assets/img_src/post/2017-08-10/preferences_text.png)
 
 자 이제는 **색테마**차례군요.
 색테마는 현재 적용한 Zsh테마에서 폰트 색상 및 배경을 따로 설정해주는거라 보시면 돼요.
@@ -197,11 +198,11 @@ iTerm을 다시 실행하고 메뉴창에서
 
 <br>
 
-![](/img_src/post/2017-08-10/facebook.png)
+![](assets/img_src/post/2017-08-10/facebook.png)
 
 * [Facebook-iterm-Theme](https://github.com/slwen/facebook-iterm-theme)
 
-![](/img_src/post/2017-08-10/oceanic.png)
+![](assets/img_src/post/2017-08-10/oceanic.png)
 
 * [Oceanic-next-theme](https://github.com/mhartington/oceanic-next-iterm)
 
@@ -210,11 +211,11 @@ iTerm을 다시 실행하고 메뉴창에서
 폰트를 설정했을때와 동일하게
 *iTerm2-Preferences...*
 
-![](/img_src/post/2017-08-10/preferences.png)
+![](assets/img_src/post/2017-08-10/preferences.png)
 
 *Profiles-Default-Colors-Color Presets...* 에서 *Import...* 로 해당 파일을 불러와 적용하면 끝납니다.
 
-![](/img_src/post/2017-08-10/preferences_color.png)
+![](assets/img_src/post/2017-08-10/preferences_color.png)
 
 
 <br>
@@ -226,7 +227,7 @@ iTerm을 다시 실행하고 메뉴창에서
 zsh-syntax-highlighting은 시스템 PATH에 등록된 명령어들을 알아서 Syntax처리 해주는 친구입니다.
 한번에 명령어의 가능 여부를 확인할 수 있죠.
 
-![](/img_src/post/2017-08-10/zsh_syntax.png)
+![](assets/img_src/post/2017-08-10/zsh_syntax.png)
 
 
 **설치 명령어**
@@ -237,7 +238,7 @@ zsh-syntax-highlighting은 시스템 PATH에 등록된 명령어들을 알아서
 
 ```$   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
 $ echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc```
-    
+
 <br>
 
 ---
@@ -250,6 +251,3 @@ $ echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >
 이제 Happy Coding 하시면 되겠습니다.
 
 고생하셨습니다~
-
-
-

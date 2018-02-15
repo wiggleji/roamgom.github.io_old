@@ -2,8 +2,7 @@
 title: "Query My SQL [Intro]"
 date: 2017-05-10 16:00
 layout: post
-categories: ["dev"]
-tagline: ""
+tags: Dev
 published: false
 ---
 

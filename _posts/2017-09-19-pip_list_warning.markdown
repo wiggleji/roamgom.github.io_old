@@ -2,8 +2,7 @@
 title: "pip list --format=(legacy|columns) 경고 해결하기"
 date: 2017-09-19 13:00
 layout: post
-category: ["dev", "python", "inde"]
-tagline: ""
+tags: [Dev, Python, Inde]
 published: true
 ---
 
@@ -59,13 +58,13 @@ format에서 legacy 또는 columns 형식을 정해주면 된다.
 > legacy의 경우
 
 ![]( = 200px)
-<img src="/img_src/post/2017-09-19/legacy.png" width="240" height="390">
+<img src="assets/img_src/post/2017-09-19/legacy.png" width="240" height="390">
 
 
 <br>
 > columns의 경우
 
-<img src="/img_src/post/2017-09-19/columns.png" width="240" height="390">
+<img src="assets/img_src/post/2017-09-19/columns.png" width="240" height="390">
 
 
 이제 `pip list`를 입력하면 깔끔하게 잘 나온다.

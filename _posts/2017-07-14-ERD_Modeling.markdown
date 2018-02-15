@@ -2,8 +2,7 @@
 title: "Query My SQL - ERD Modeling"
 date: 2017-07-11 13:00
 layout: post
-category: ["backend"]
-tagline: ""
+tags: [backend]
 published: false
 ---
 
@@ -16,7 +15,7 @@ published: false
 
 ### url : https://onoffmix.com/event/101836
 
-어떠한 서비스나 프로그램을 개발할때 코딩을 하다보면 꼬이는 부분이 매번 발생합니다. 
+어떠한 서비스나 프로그램을 개발할때 코딩을 하다보면 꼬이는 부분이 매번 발생합니다.
 만약 그런적이 없다고 하시는 분은 엯촋이시겠군요. 축하드립니다
 
 서비스를 제공하는 부분은 단순히 서버-플랫폼-유저 순으로 진행되지 않습니다.

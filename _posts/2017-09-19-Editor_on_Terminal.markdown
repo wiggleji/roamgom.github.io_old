@@ -2,8 +2,7 @@
 title: "Sulime / VScode를 Terminal로 열어보자"
 date: 2017-09-19 13:00
 layout: post
-category: ["dev", "inde"]
-tagline: ""
+tags: [Dev, Inde]
 published: true
 ---
 
@@ -99,4 +98,3 @@ echo "export EDITOR='subl' -w" >> ~/.zshrc
 자신이 열고 디렉토리에서 `subl .`이라고 입력하면
 
 바로 서브라임이 사용가능합니다~~~	    '\\(- 3-)/`
-

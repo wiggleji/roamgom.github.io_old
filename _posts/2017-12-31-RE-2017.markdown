@@ -2,8 +2,7 @@
 title: "RE: 2017"
 date: 2017-12-31 23:59:59
 layout: post
-category: "inde"
-tagline: "나의 회고록"
+tags: [Myself]
 published: true
 ---
 
@@ -46,7 +45,7 @@ published: true
 
 죽기 전 꼭 가봐야한다는 마추피추부터 우유니, 그리고 제일 인상깊었던 칠레의 푸콘, 이과수 폭포까지 정말 짧은 기간안에 많은 일정이었다.
 
-<img src="/img_src/post/2017-12-31/south_america.png">
+<img src="assets/img_src/post/2017-12-31/south_america.png">
 
 > 잘 찍힌건 다 뒤통수
 
@@ -59,7 +58,7 @@ published: true
 #### **Python 입문**
 예전까지만해도 사용해 본 C, 베이직 계열 언어만 알고 있던 나에게 친구들의 좋은 약팔이(?) 덕에 `깐깐하게 배우는 파이썬 [by Zed A. Shaw]`로 파이썬을 배우기 시작했다.
 
-<img src="/img_src/post/2017-12-31/learn_python_hard_way.jpg" width="240">
+<img src="assets/img_src/post/2017-12-31/learn_python_hard_way.jpg" width="240">
 
 파이썬은 정말 신세계였다! 여태 본 코드와 다르게 눈에 촼 들어오는 코드부터 많은 패키지까지, 예전에 코딩을 할 때 지루해 하던 나의 표정은 어느새 웃고 있었다더라.
 
@@ -69,7 +68,7 @@ published: true
 
 #### **본격 공부 시작!**
 
-<img src="/img_src/post/2017-12-31/django.svg" width="200">
+<img src="assets/img_src/post/2017-12-31/django.svg" width="200">
 
 파이썬 기초는 공부했겠다 싶을 무렵, "언어를 배웠으니 개발하셔야죠?" 라며 나에게 Django 프레임워크를 추천해 준 친구가 있었다.(~~약팔이~~)
 
@@ -87,11 +86,11 @@ published: true
 <br>
 
 #### **밋업**
-하나를 제대로 공부하기 이전에 다른 사람들은 무엇을 공부하고, 개발하는지 알기 위해 커뮤니티 활동을 많이 알아보았다. 
+하나를 제대로 공부하기 이전에 다른 사람들은 무엇을 공부하고, 개발하는지 알기 위해 커뮤니티 활동을 많이 알아보았다.
 정말 거의 모든 개발 관련 세미나, 밋업은 다 신청해본 것 같다.
 행사를 통해 정말 많은 분야를 보고 많은 사람도 만날 수 있었다.
 
-<img src="/img_src/post/2017-12-31/facebook.png">
+<img src="assets/img_src/post/2017-12-31/facebook.png">
 
 > 모임에 하였습니다 참여신청
 
@@ -100,18 +99,18 @@ published: true
 #### **파이썬 스터디 + 드론**
 여름방학 직전에 동아리 사람을 모아 방학 기간에 스터디를 주도해보았다. 기초부터 패키지 사용까지 해보며 알려주는 동시에 스스로 복습할 수 있었다. 끝난 후에 많은 피드백과 앵콜까지 받았으니 매우 뿌듯 한 스터디였다.
 
-<img src="/img_src/post/2017-12-31/pycon2017.png">
+<img src="assets/img_src/post/2017-12-31/pycon2017.png">
 
 8월에 진행된 파이콘을 통해 컨퍼런스의 재미를 느낄 수 있었다. 처음 듣는 내용으로 관심을, 친구와 지인을 통해 또 다른 만남을 경험할 수 있는 기회였다.
 `???: 그래서 내년 파이콘 때 발표하셔야죠?`
 
 교외로는 9월부터 DRF(Django REST Framework)스터디를 진행하여 나에게 또 다른 신선한 충격을 주었다. 아마도 여기서 Django의 진정한 매력을 느낀 것 같다.
 
-또한 방학기간에 소규모 프로젝트를 진행하게 되었다. 학교 주최로 이루어진 3D 프린터를 활용한 IOT 작품을 만드는 프로그램에서 친구들과 직접 기후측정용 드론을 만들어 날려보았다. 
+또한 방학기간에 소규모 프로젝트를 진행하게 되었다. 학교 주최로 이루어진 3D 프린터를 활용한 IOT 작품을 만드는 프로그램에서 친구들과 직접 기후측정용 드론을 만들어 날려보았다.
 
 출력과 구매를 통해 드론을 제작하며 나는 그 위에 쓰이는 센서 부분을 담당하게 되었다. 이 때 아두이노를 사용하여 온습도, 먼지, 기압센서등으로 측정한 값을 와이파이를 통해 폰 어플(Blynk)로 보내며 비행까지 성공적으로 마무리하였다.
 
-<img src="/img_src/post/2017-12-31/drone.jpeg" width="300">
+<img src="assets/img_src/post/2017-12-31/drone.jpeg" width="300">
 
 > 난다요! 잘 난다요
 
@@ -128,7 +127,7 @@ published: true
 
 #### **Django Girls**
 
-<img src="/img_src/post/2017-12-31/django_girls.png" width="200">
+<img src="assets/img_src/post/2017-12-31/django_girls.png" width="200">
 
 아마 올해 나에게 가장 의미를 가져다 준 커뮤니티가 아닐까.
 처음에는 여성개발자를 대상으로 진행된 밋업을 시작으로 알게 되었다. 당시 있던 개발이란 단어가 포함된 모임은 있는대로 신청했던지라 신청 후 취소해야 하나 싶어 문의했는데 참여해도 된다는 답을 받아 행복했다.
@@ -141,7 +140,7 @@ published: true
 
 #### **GEEKHUB**
 
-<img src="/img_src/geekhub.jpg" width="200">
+<img src="assets/img_src/geekhub.jpg" width="200">
 
 전역을 하고 올해 친구의 권유로 들어온 깈헙은 특정 목적보다는 서로 사상이 비슷한 친구끼리 편하게 대화를 나누며 외로움을 달래준 곳이다. 무엇보다 나에게 큰 버팀목이 되어준 친구들을 만날 수 있어 좋았다. ~~내 손발!~~
 
@@ -176,6 +175,6 @@ published: true
 
 부디 내년 한해도 모두 건강하고 즐겁게 보낼 수 있기를 기원하며
 
-<img src="/img_src/post/2017-12-31/happy_new.png" width="100">
+<img src="assets/img_src/post/2017-12-31/happy_new.png" width="100">
 
 -FIN-

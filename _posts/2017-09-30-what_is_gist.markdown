@@ -2,8 +2,7 @@
 title: "What is gist?"
 date: 2017-09-30 11:30
 layout: post
-category: ["bachbach", "dev"]
-tagline: ""
+tags: [Dev, BachBach]
 published: true
 ---
 
@@ -18,7 +17,7 @@ published: true
 Github에서 지원해주는 Gist를 사용하면 이 모든 걸 편하게 해결할 수 있습니다.
 
 
-<img src="/img_src/post/2017-09-30/gist_page.png">
+<img src="assets/img_src/post/2017-09-30/gist_page.png">
 
 
 > gist 주소 : https://gist.github.com/
@@ -39,7 +38,7 @@ gist는 주로 오픈소스, 또는 프로젝트를 진행할 때 서로 작성�
 음.. 아직은 무슨 말인지 이해가 안될수도 있지만...
 이 글을 통해 gist에 대해 완벽하게 짚고 넘어가시길 바랍니다.
 
-<img src="/img_src/post/2017-09-30/gist_info.png">
+<img src="assets/img_src/post/2017-09-30/gist_info.png">
 
 > gist main page
 
@@ -51,7 +50,7 @@ gist는 주로 오픈소스, 또는 프로젝트를 진행할 때 서로 작성�
 
 > 예를 들어, python에서 "hello world!"를 입력할 경우,
 
-<img src="/img_src/post/2017-09-30/gist_write.png">
+<img src="assets/img_src/post/2017-09-30/gist_write.png">
 
 처럼 입력을 한 뒤, public gist로 저장을 합니다.
 
@@ -61,7 +60,7 @@ gist는 주로 오픈소스, 또는 프로젝트를 진행할 때 서로 작성�
 
 <br>
 
-<img src="/img_src/post/2017-09-30/gist_post_info.png">
+<img src="assets/img_src/post/2017-09-30/gist_post_info.png">
 
 제가 사용한 python 언어에 따라 syntax highlighting이 처리된 코드가 나옵니다.
 
@@ -70,11 +69,11 @@ gist는 주로 오픈소스, 또는 프로젝트를 진행할 때 서로 작성�
 
 만약, 자신이 코드 파일의 형태가 아니라 설명과 코드를 같이 넣고 싶다 하는 분은 **Markdown** 양식을 통해 gist를 올려도 무방합니다.
 
-<img src="/img_src/post/2017-09-30/write_markdown.png">
+<img src="assets/img_src/post/2017-09-30/write_markdown.png">
 
 > gist 작성
 
-<img src="/img_src/post/2017-09-30/write_markdown_result.png">
+<img src="assets/img_src/post/2017-09-30/write_markdown_result.png">
 
 > 작성한 글 형태
 

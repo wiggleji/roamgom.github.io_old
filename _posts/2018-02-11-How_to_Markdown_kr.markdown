@@ -2,8 +2,7 @@
 title: "Markdown 작성하기(사용법)"
 date: 2018-02-11 23:45:02
 layout: post
-category: ["dev", "bachbach"]
-tagline: "맠다운"
+tags: [Dev, BachBach]
 published: true
 ---
 
@@ -45,13 +44,13 @@ Github, Github Pages에서 보는 README를 보면 모두 `.md` 또는 `.markdow
 
 Github에서 오픈소스를 찾다보면, `README.md` 의 내용은 우리가 매일보는 HTML 웹페이지로 보입니다.
 
-<img src="/img_src/post/2018-02-11/tensorflow.png">
+<img src="assets/img_src/post/2018-02-11/tensorflow.png">
 
 _이렇게 보이죠_
 
-'문서를 HTML로 작성했네?'라고 생각할 수 있지만, 창에 보이는 `Raw` 라는 버튼을 눌러보면 
+'문서를 HTML로 작성했네?'라고 생각할 수 있지만, 창에 보이는 `Raw` 라는 버튼을 눌러보면
 
-<img src="/img_src/post/2018-02-11/tensorflow_md.png">
+<img src="assets/img_src/post/2018-02-11/tensorflow_md.png">
 
 _생각한 것과 다르게 나오네요_ 🤔
 
@@ -413,7 +412,7 @@ hola()
 ![이미지 설명](/경로/이미지.jpg)
 ```
 
-<img src="/img_src/profile_image.jpg">
+<img src="assets/img_src/profile_image.jpg">
 
 
 
@@ -423,7 +422,7 @@ hola()
 <img src="/경로/이미지.jpg" width="가로" height="세로">
 ```
 
-<img src="/img_src/profile_image.jpg" width="30">
+<img src="assets/img_src/profile_image.jpg" width="30">
 
 
 
@@ -483,7 +482,7 @@ hola()
 
 
 
-<img src="/img_src/post/2018-02-11/typora.gif">
+<img src="assets/img_src/post/2018-02-11/typora.gif">
 
 
 
@@ -493,13 +492,13 @@ typora 사이트에 들어가서 특징을 보면 매우 특이합니다.
 
 
 
-<img src="/img_src/post/2018-02-11/typora_about.png">
+<img src="assets/img_src/post/2018-02-11/typora_about.png">
 
 
 
 무엇보다 마음에 드는 부분은 마크다운 문서를 작성하면서 결과 화면을 같이 볼 수 있다는 점이네요.
 
-<img src="/img_src/post/2018-02-11/typora_type.gif">
+<img src="assets/img_src/post/2018-02-11/typora_type.gif">
 
 <br>
 
