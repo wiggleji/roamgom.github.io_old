@@ -58,7 +58,7 @@ published: true
 #### **Python 입문**
 예전까지만해도 사용해 본 C, 베이직 계열 언어만 알고 있던 나에게 친구들의 좋은 약팔이(?) 덕에 `깐깐하게 배우는 파이썬 [by Zed A. Shaw]`로 파이썬을 배우기 시작했다.
 
-<img src="/img_src/post/2017-12-31/learn_python_hard_way.jpg" width="240">
+<img src="/img_src/post/2017-12-31/learn_python_hard_way.jpg">
 
 파이썬은 정말 신세계였다! 여태 본 코드와 다르게 눈에 촼 들어오는 코드부터 많은 패키지까지, 예전에 코딩을 할 때 지루해 하던 나의 표정은 어느새 웃고 있었다더라.
 
@@ -68,7 +68,7 @@ published: true
 
 #### **본격 공부 시작!**
 
-<img src="/img_src/post/2017-12-31/django.svg" width="200">
+<img src="/img_src/post/2017-12-31/django.svg">
 
 파이썬 기초는 공부했겠다 싶을 무렵, "언어를 배웠으니 개발하셔야죠?" 라며 나에게 Django 프레임워크를 추천해 준 친구가 있었다.(~~약팔이~~)
 
@@ -110,7 +110,7 @@ published: true
 
 출력과 구매를 통해 드론을 제작하며 나는 그 위에 쓰이는 센서 부분을 담당하게 되었다. 이 때 아두이노를 사용하여 온습도, 먼지, 기압센서등으로 측정한 값을 와이파이를 통해 폰 어플(Blynk)로 보내며 비행까지 성공적으로 마무리하였다.
 
-<img src="/img_src/post/2017-12-31/drone.jpeg" width="300">
+<img src="/img_src/post/2017-12-31/drone.jpeg">
 
 > 난다요! 잘 난다요
 
@@ -127,7 +127,7 @@ published: true
 
 #### **Django Girls**
 
-<img src="/img_src/post/2017-12-31/django_girls.png" width="200">
+<img src="/img_src/post/2017-12-31/django_girls.png">
 
 아마 올해 나에게 가장 의미를 가져다 준 커뮤니티가 아닐까.
 처음에는 여성개발자를 대상으로 진행된 밋업을 시작으로 알게 되었다. 당시 있던 개발이란 단어가 포함된 모임은 있는대로 신청했던지라 신청 후 취소해야 하나 싶어 문의했는데 참여해도 된다는 답을 받아 행복했다.
@@ -140,7 +140,7 @@ published: true
 
 #### **GEEKHUB**
 
-<img src="/img_src/geekhub.jpg" width="200">
+<img src="/assets/geekhub.jpg">
 
 전역을 하고 올해 친구의 권유로 들어온 깈헙은 특정 목적보다는 서로 사상이 비슷한 친구끼리 편하게 대화를 나누며 외로움을 달래준 곳이다. 무엇보다 나에게 큰 버팀목이 되어준 친구들을 만날 수 있어 좋았다. ~~내 손발!~~
 
@@ -175,6 +175,6 @@ published: true
 
 부디 내년 한해도 모두 건강하고 즐겁게 보낼 수 있기를 기원하며
 
-<img src="/img_src/post/2017-12-31/happy_new.png" width="100">
+<img src="/img_src/post/2017-12-31/happy_new.png">
 
 -FIN-

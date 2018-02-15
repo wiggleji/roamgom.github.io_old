@@ -422,7 +422,7 @@ hola()
 <img src="/경로/이미지.jpg" width="가로" height="세로">
 ```
 
-<img src="/img_src/profile_image.jpg" width="30">
+<img src="/img_src/profile_image.jpg" width="400">
 
 
 
