@@ -2,7 +2,7 @@
 title: OhMyZsh로 터미널 꾸미기
 date: 2017-08-10 11:32
 layout: post
-thumbnail: /img_src/post/2017-08-10/ohmyzsh_logo.png
+thumbnail: /img_src/post/2017-08-10/zsh.jpg
 tags: [Dev, BachBach]
 ---
 published: true
