@@ -412,7 +412,7 @@ hola()
 ![이미지 설명](/경로/이미지.jpg)
 ```
 
-<img src="/img_src/profile_image.jpg">
+<img src="/assets/img/roamgom.jpg">
 
 
 
@@ -422,7 +422,7 @@ hola()
 <img src="/경로/이미지.jpg" width="가로" height="세로">
 ```
 
-<img src="/img_src/profile_image.jpg" width="400">
+<img src="/assets/img/roamgom.jpg" width="400">
 
 
 
