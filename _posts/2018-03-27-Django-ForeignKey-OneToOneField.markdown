@@ -1,6 +1,6 @@
 ---
 title: "[Django] ForeignKey와 OneToOneField의 차이"
-date: 2018-02-11 23:45:02
+date: 2018-03-27 01:23:02
 tags: [Django]
 published: true
 ---
