@@ -123,6 +123,7 @@ class Car2(models.Model):
 아래는 `python3 manage.py shell`을 통해 실행해본 결과
 
 * `OneToOneField` 예시
+
 ```python
 >>> from testapp.models import Car, Engine
 
@@ -138,6 +139,7 @@ class Car2(models.Model):
 ```
 
 * `ForeignKey(unique=True)` 예시
+
 ```python
 >>> from testapp.models import Car2, Engine2
 
