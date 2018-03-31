@@ -237,17 +237,13 @@ zsh-syntax-highlighting은 시스템 PATH에 등록된 명령어들을 알아서
 또는
 
 ```$   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
-$ echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc```
+$ echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+```
 
 <br>
 
 ---
-자 이렇게 모든 설정이 끝나면 전보다 멋진 터미널을 만날 수 있어요!
-
-**굳이 고정 테마가 아니라 직접 색상으로 사용해도 무난합니다. 다만 테마에 따라 색상을 맞춰줘야 더 예쁘게 보이겠죠?**
 
 <br>
 
-이제 Happy Coding 하시면 되겠습니다.
-
-고생하셨습니다~
+**끝!**
