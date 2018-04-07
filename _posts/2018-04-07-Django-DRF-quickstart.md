@@ -7,17 +7,17 @@ published: false
 
 # QuickStart
 
-여러분과 같이 admin 유저가 한 시스템의 users와 groups를 관리할 수 있는 간단한 API를 생성해 보겠습니다.
+여러분과 같이 admin 유저로 한 시스템의 users와 groups를 관리할 수 있는 간단한 API를 생성해 보겠습니다.
 
 ## Project setup
-`tutorial` 이름의 Django 프로젝트를 생성해 주시고, 프로젝트 안에 `quickstart`라는 새로운 앱을 만들어 주세요.
+`tutorial` 이름의 Django 프로젝트를 생성하고, 그 안에 `quickstart`라는 새로운 앱을 만들어 주세요.
 
 ```shell
 # 프로젝트 디렉토리 생성
 mkdir tutorial
 cd tutorial
 
-# 로컬 패키지 의존성을 위해 virtualenv 생성
+# 로컬 패키지 의존성 격리를 위해 virtualenv 생성
 virtualenv env
 source env/bin/activate # 윈도우에서는 `env\Scripts\activate`
 
@@ -57,7 +57,7 @@ $ find .
 ./tutorial/wsgi.py
 ```
 
-프로젝트 디렉토리 안에 생성된 앱이 이상하게 보일 수도 있지만,
+프로젝트 디렉토리 안에 생성된 앱이 낯설게 보일 수도 있습니다.
 
 프로젝트의 namespace를 사용함으로써 외부 모듈과의 충돌을 피할 수 있습니다. ##(주제는 quickstart의 scope 밖으로 향합니다???)
 
@@ -67,7 +67,7 @@ $ find .
 python manage.py migrate
 ```
 
-`admin` 계정명과 `password123` 암호를 가진 최초 유저를 생성해주세요. 이는 후에, 예제에서 생성한 유저를 통해 인증을 진행할 겁니다.
+또한, `admin` 계정명과 `password123` 암호를 가진 최초 유저를 생성해주세요. 이는, 후에 예제에서 생성한 유저를 통해 인증을 진행할 겁니다.
 
 ```shell
 python manage.py createsuperuser --email admin@example.com --username admin
@@ -78,7 +78,7 @@ python manage.py createsuperuser --email admin@example.com --username admin
 
 ## Serializers
 
-맨 처음으로, 우리는 몇 개의 serializer를 정의할 겁니다.
+가장 먼저, 우리는 몇 개의 serializer를 정의할 겁니다.
 
 `tutorial/quickstart/serializers.py`라는 새로운 모듈을 만들어주세요. 이는 우리가 만든 데이터를 표현하는데 쓰일 겁니다.
 
@@ -99,7 +99,7 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
         fields = ('url', 'name')
 ```
 
-이번의 경우, `HyperlinkedModelSerializer`로 hyperlinked 관계를 쓰고 있다는 걸 주목해주세요. 물론 primary key와 다른 여러 관계도 사용할 수 있지만, hyperlinking으로 멋지게 RESTful한 디자인을 만들 수 있습니다.
+ 이 튜토리얼에서 우리는 `HyperlinkedModelSerializer`로 hyperlinked relation을 쓰고 있다는 걸 주목해주세요. 물론 primary key와 다른 여러 관계도 사용할 수 있지만, hyperlinking으로 멋지게 RESTful한 디자인을 만들 수 있습니다.
 
 
 ## Views
@@ -110,6 +110,7 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
 from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 from tutorial.quickstart.serializers import UserSerializer, GroupSerializer
+# from quickstart.serializers import UserSerializer, GroupSerializer
 
 
 class UserViewSet(viewsets.ModelViewSet):
@@ -137,30 +138,34 @@ class GroupViewSet(viewsets.ModelViewSet):
 
 자, 이제 API URL을 연결해 볼까요? `tutorial/urls.py`에서 작업을 해보죠...
 
-#### 이거 2.0 맞춰서 써줘야할 것
+
 ```python
 from django.urls import path, include
 from rest_framework import routers
 from tutorial.quickstart import views
+# from quickstart import views
 
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
 router.register(r'groups', views.GroupViewSet)
 
+# 자동 URL 라우팅을 통해 우리가 만든 API를 묶어줍니다.
+# 추가적으로, 열람가능한(browsable) API에 로그인 URL을 포함시켜주세요.
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
+
 urlpatterns = [
-    url(r'^', include(router.urls)),
-    url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+    path('', include(router.urls)),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
 ```
 
 현재 view 대신에 viewset을 사용하고 있기 때문에, 우리는 viewset을 router class로 등록하여 API를 위한 URL을 자동으로 생성할 수 있습니다.
 
 #### ???
-API URL 이상으로 더 많은 제어가 필요할 경우, regular class-based view를 사용하고, URL 설정을 명시적으로 작성하여 적용시킬 수 있습니다.
+만약 API URL 이상으로 더 많은 제어가 필요할 경우, regular class-based view를 사용하고, URL 설정을 명시적으로 작성하여 적용시킬 수 있습니다.
 
-마침내, 열람 가능한(browsable) API에 쓰일 기본 login과 logout view를 포함시켰습니다. 이는 선택 사항이지만, 여러분이 만든 API에 인증을 요구하고, 열람하여(browsable) 사용할 수 있도록 설계한다면 이를 유용하게 사용하실 수 있습니다.
+마침내, 열람 가능한(browsable) API에 쓰일 기본 login과 logout view를 포함시켰습니다. 이는 선택 사항이지만, 여러분이 만든 API에 인증을 요구하고, 열람하여(browsable) 사용할 수 있도록 설계하려면 이를 유용하게 사용하실 수 있습니다.
 
 
 ## Settings
