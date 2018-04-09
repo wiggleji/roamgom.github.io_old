@@ -8,3 +8,11 @@ tags: [About]
 
 # whoami
 
+Name: Ji Hyung Kim (roamgom)
+
+github: 
+
+facebook:
+
+linkedin:
+
