@@ -7,8 +7,6 @@ tags: [About]
 ---
 
 
-# whoami
-
 Name: Ji Hyung Kim (roamgom)
 
 [github](https://github.com/roamgom)
