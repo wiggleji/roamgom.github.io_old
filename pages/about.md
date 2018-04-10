@@ -32,6 +32,7 @@ Name: Ji Hyung Kim (roamgom)
 
 - Django Girls Seoul Organizer
 
+- Fast Campus Web Crawling assist(2nd, 3rd) [2017.10 - 2018.03]
 
 ## Thing that I've made
 
