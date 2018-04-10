@@ -37,7 +37,7 @@ Name: Ji Hyung Kim (roamgom)
 
 ## Thing that I've made
 
-- SweetSoup Bot (AWS lambda) for Dankook Univ. [[DockerBuild](https://github.com/roamgom/SweetSoup_Bot)  |[ZappaBuild](https://github.com/roamgom/SweetSoup_Bot_Zappa)]
+- SweetSoup Bot (AWS lambda) for Dankook Univ. [[DockerBuild](https://github.com/roamgom/SweetSoup_Bot)  or [ZappaBuild](https://github.com/roamgom/SweetSoup_Bot_Zappa)]
 
 - DK daidalos Drone [[github](https://github.com/roamgom/DK_daidalos)]
 
