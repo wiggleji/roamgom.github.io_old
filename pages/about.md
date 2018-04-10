@@ -20,9 +20,9 @@ Name: Ji Hyung Kim (roamgom)
 
 ## Skills
 
-- Python | Django, Crawling
+- Python, Django, Crawling
 
-- Javascript | VueJS
+- Javascript, VueJS
 
 - Git, Docker
 
@@ -37,16 +37,16 @@ Name: Ji Hyung Kim (roamgom)
 
 ## Thing that I've made
 
-- SweetSoup Bot (AWS lambda) for Dankook Univ. [DockerBuild](https://github.com/roamgom/SweetSoup_Bot) | [ZappaBuild](https://github.com/roamgom/SweetSoup_Bot_Zappa)
+- SweetSoup Bot (AWS lambda) for Dankook Univ. [DockerBuild](https://github.com/roamgom/SweetSoup_Bot)  [ZappaBuild](https://github.com/roamgom/SweetSoup_Bot_Zappa)
 
-- DK daidalos Drone [github](https://github.com/roamgom/DK_daidalos)
+- DK daidalos Drone [[github](https://github.com/roamgom/DK_daidalos)]
 
-- OFF pdf viewer [github](https://github.com/roamgom/OFF_pdf)
+- OFF pdf viewer [[github](https://github.com/roamgom/OFF_pdf)]
 
 ## Still making
 
 - Cafe-metro (Django DRF, VueJS) to find cafe from metro stations
-[github](https://github.com/roamgom/cafe_metro)
+[[github](https://github.com/roamgom/cafe_metro)]
 
 - IB-detector (Tensorflow) for detecting curse word
 
@@ -56,4 +56,4 @@ Name: Ji Hyung Kim (roamgom)
 
     - **Before PYCON 2018**
 
-- DRF translation, disassemble (on blog) based on [Study Repo](https://github.com/django-rest-framework-study)
+- DRF translation, disassemble (on blog) based on [[Study Repo](https://github.com/django-rest-framework-study)]
